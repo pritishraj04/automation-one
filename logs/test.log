@@ -1,46 +1,46 @@
-2025-08-06 08:46:51 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
-2025-08-06 08:46:51 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
-2025-08-06 08:46:53 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
-2025-08-06 08:46:53 INFO  org.example.tests.LoginTestCase - Maximizing Window
-2025-08-06 08:46:53 INFO  org.example.listeners.TestListener - Test Started: loginWithValidUsers
-2025-08-06 08:46:53 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for positive case
-2025-08-06 08:46:53 INFO  org.example.tests.LoginTestCase - Login with with valid user - username: standard_user and password: secret_sauce
-2025-08-06 08:46:54 INFO  org.example.tests.LoginTestCase - Checking if user is navigated to inventory page
-2025-08-06 08:46:54 INFO  org.example.tests.LoginTestCase - Login test case passed
-2025-08-06 08:46:54 INFO  org.example.listeners.TestListener - Test passed: loginWithValidUsers
-2025-08-06 08:46:54 INFO  org.example.tests.LoginTestCase - Quitting Browser
-2025-08-06 08:46:54 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
-2025-08-06 08:46:54 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
-2025-08-06 08:46:55 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
-2025-08-06 08:46:55 INFO  org.example.tests.LoginTestCase - Maximizing Window
-2025-08-06 08:46:55 INFO  org.example.listeners.TestListener - Test Started: loginWithValidUsers
-2025-08-06 08:46:55 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for positive case
-2025-08-06 08:46:55 INFO  org.example.tests.LoginTestCase - Login with with valid user - username: problem_user and password: secret_sauce
-2025-08-06 08:46:56 INFO  org.example.tests.LoginTestCase - Checking if user is navigated to inventory page
-2025-08-06 08:46:56 INFO  org.example.tests.LoginTestCase - Login test case passed
-2025-08-06 08:46:56 INFO  org.example.listeners.TestListener - Test passed: loginWithValidUsers
-2025-08-06 08:46:56 INFO  org.example.tests.LoginTestCase - Quitting Browser
-2025-08-06 08:46:56 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
-2025-08-06 08:46:56 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
-2025-08-06 08:46:57 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
-2025-08-06 08:46:58 INFO  org.example.tests.LoginTestCase - Maximizing Window
-2025-08-06 08:46:58 INFO  org.example.listeners.TestListener - Test Started: loginWithInvalidUsers
-2025-08-06 08:46:58 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for negative case
-2025-08-06 08:46:58 INFO  org.example.tests.LoginTestCase - Login with invalid user - username: locked_out_user and password: secret_sauce
-2025-08-06 08:46:58 INFO  org.example.tests.LoginTestCase - Checking if error is displayed
-2025-08-06 08:46:58 INFO  org.example.listeners.TestListener - Test passed: loginWithInvalidUsers
-2025-08-06 08:46:58 INFO  org.example.tests.LoginTestCase - Quitting Browser
-2025-08-06 08:46:58 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
-2025-08-06 08:46:58 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
-2025-08-06 08:46:59 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
-2025-08-06 08:47:00 INFO  org.example.tests.LoginTestCase - Maximizing Window
-2025-08-06 08:47:00 INFO  org.example.listeners.TestListener - Test Started: loginWithInvalidUsers
-2025-08-06 08:47:00 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for negative case
-2025-08-06 08:47:00 INFO  org.example.tests.LoginTestCase - Login with invalid user - username: invalid_user and password: wrong_pass
-2025-08-06 08:47:00 INFO  org.example.tests.LoginTestCase - Checking if error is displayed
-2025-08-06 08:47:00 INFO  org.example.listeners.TestListener - Test passed: loginWithInvalidUsers
-2025-08-06 08:47:00 INFO  org.example.tests.LoginTestCase - Quitting Browser
-2025-08-06 08:47:02 INFO  org.example.listeners.TestListener - Test Started: test
-2025-08-06 08:47:04 INFO  org.example.listeners.TestListener - Test passed: test
-2025-08-06 08:47:07 INFO  org.example.listeners.TestListener - Test Started: test
-2025-08-06 08:47:08 INFO  org.example.listeners.TestListener - Test passed: test
+2025-08-06 13:49:43 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
+2025-08-06 13:49:43 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
+2025-08-06 13:49:44 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
+2025-08-06 13:49:44 INFO  org.example.tests.LoginTestCase - Maximizing Window
+2025-08-06 13:49:44 INFO  org.example.listeners.TestListener - Test Started: loginWithValidUsers
+2025-08-06 13:49:44 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for positive case
+2025-08-06 13:49:44 INFO  org.example.tests.LoginTestCase - Login with with valid user - username: standard_user and password: secret_sauce
+2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Checking if user is navigated to inventory page
+2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Login test case passed
+2025-08-06 13:49:45 INFO  org.example.listeners.TestListener - Test passed: loginWithValidUsers
+2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Quitting Browser
+2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
+2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
+2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
+2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Maximizing Window
+2025-08-06 13:49:45 INFO  org.example.listeners.TestListener - Test Started: loginWithValidUsers
+2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for positive case
+2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Login with with valid user - username: problem_user and password: secret_sauce
+2025-08-06 13:49:46 INFO  org.example.tests.LoginTestCase - Checking if user is navigated to inventory page
+2025-08-06 13:49:46 INFO  org.example.tests.LoginTestCase - Login test case passed
+2025-08-06 13:49:46 INFO  org.example.listeners.TestListener - Test passed: loginWithValidUsers
+2025-08-06 13:49:46 INFO  org.example.tests.LoginTestCase - Quitting Browser
+2025-08-06 13:49:46 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
+2025-08-06 13:49:46 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
+2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
+2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Maximizing Window
+2025-08-06 13:49:47 INFO  org.example.listeners.TestListener - Test Started: loginWithInvalidUsers
+2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for negative case
+2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Login with invalid user - username: locked_out_user and password: secret_sauce
+2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Checking if error is displayed
+2025-08-06 13:49:47 INFO  org.example.listeners.TestListener - Test passed: loginWithInvalidUsers
+2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Quitting Browser
+2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
+2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
+2025-08-06 13:49:48 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
+2025-08-06 13:49:48 INFO  org.example.tests.LoginTestCase - Maximizing Window
+2025-08-06 13:49:48 INFO  org.example.listeners.TestListener - Test Started: loginWithInvalidUsers
+2025-08-06 13:49:48 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for negative case
+2025-08-06 13:49:48 INFO  org.example.tests.LoginTestCase - Login with invalid user - username: invalid_user and password: wrong_pass
+2025-08-06 13:49:49 INFO  org.example.tests.LoginTestCase - Checking if error is displayed
+2025-08-06 13:49:49 INFO  org.example.listeners.TestListener - Test passed: loginWithInvalidUsers
+2025-08-06 13:49:49 INFO  org.example.tests.LoginTestCase - Quitting Browser
+2025-08-06 13:49:50 INFO  org.example.listeners.TestListener - Test Started: test
+2025-08-06 13:49:50 INFO  org.example.listeners.TestListener - Test passed: test
+2025-08-06 13:49:52 INFO  org.example.listeners.TestListener - Test Started: test
+2025-08-06 13:49:52 INFO  org.example.listeners.TestListener - Test passed: test
