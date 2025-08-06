@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="smokeTests">
+    <listeners>
+        <listener class-name="org.example.listeners.TestListener"/>
+    </listeners>
+    <test name="smoke">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.tests.LoginTestCase"/>
+        </classes>
+    </test>
+</suite>
