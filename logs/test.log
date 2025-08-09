@@ -1,46 +1,77 @@
-2025-08-06 13:49:43 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
-2025-08-06 13:49:43 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
-2025-08-06 13:49:44 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
-2025-08-06 13:49:44 INFO  org.example.tests.LoginTestCase - Maximizing Window
-2025-08-06 13:49:44 INFO  org.example.listeners.TestListener - Test Started: loginWithValidUsers
-2025-08-06 13:49:44 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for positive case
-2025-08-06 13:49:44 INFO  org.example.tests.LoginTestCase - Login with with valid user - username: standard_user and password: secret_sauce
-2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Checking if user is navigated to inventory page
-2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Login test case passed
-2025-08-06 13:49:45 INFO  org.example.listeners.TestListener - Test passed: loginWithValidUsers
-2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Quitting Browser
-2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
-2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
-2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
-2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Maximizing Window
-2025-08-06 13:49:45 INFO  org.example.listeners.TestListener - Test Started: loginWithValidUsers
-2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for positive case
-2025-08-06 13:49:45 INFO  org.example.tests.LoginTestCase - Login with with valid user - username: problem_user and password: secret_sauce
-2025-08-06 13:49:46 INFO  org.example.tests.LoginTestCase - Checking if user is navigated to inventory page
-2025-08-06 13:49:46 INFO  org.example.tests.LoginTestCase - Login test case passed
-2025-08-06 13:49:46 INFO  org.example.listeners.TestListener - Test passed: loginWithValidUsers
-2025-08-06 13:49:46 INFO  org.example.tests.LoginTestCase - Quitting Browser
-2025-08-06 13:49:46 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
-2025-08-06 13:49:46 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
-2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
-2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Maximizing Window
-2025-08-06 13:49:47 INFO  org.example.listeners.TestListener - Test Started: loginWithInvalidUsers
-2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for negative case
-2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Login with invalid user - username: locked_out_user and password: secret_sauce
-2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Checking if error is displayed
-2025-08-06 13:49:47 INFO  org.example.listeners.TestListener - Test passed: loginWithInvalidUsers
-2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Quitting Browser
-2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
-2025-08-06 13:49:47 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
-2025-08-06 13:49:48 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
-2025-08-06 13:49:48 INFO  org.example.tests.LoginTestCase - Maximizing Window
-2025-08-06 13:49:48 INFO  org.example.listeners.TestListener - Test Started: loginWithInvalidUsers
-2025-08-06 13:49:48 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for negative case
-2025-08-06 13:49:48 INFO  org.example.tests.LoginTestCase - Login with invalid user - username: invalid_user and password: wrong_pass
-2025-08-06 13:49:49 INFO  org.example.tests.LoginTestCase - Checking if error is displayed
-2025-08-06 13:49:49 INFO  org.example.listeners.TestListener - Test passed: loginWithInvalidUsers
-2025-08-06 13:49:49 INFO  org.example.tests.LoginTestCase - Quitting Browser
-2025-08-06 13:49:50 INFO  org.example.listeners.TestListener - Test Started: test
-2025-08-06 13:49:50 INFO  org.example.listeners.TestListener - Test passed: test
-2025-08-06 13:49:52 INFO  org.example.listeners.TestListener - Test Started: test
-2025-08-06 13:49:52 INFO  org.example.listeners.TestListener - Test passed: test
+2025-08-09 09:04:09 INFO  org.example.tests.InventoryTestCase - Setting up chrome with password manager leak detection off
+2025-08-09 09:04:09 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
+2025-08-09 09:04:09 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
+2025-08-09 09:04:09 INFO  org.example.tests.InventoryTestCase - Launching Chrome Browser
+2025-08-09 09:04:11 INFO  org.example.tests.InventoryTestCase - Maximizing Window
+2025-08-09 09:04:11 INFO  org.example.tests.LoginTestCase - Maximizing Window
+2025-08-09 09:04:11 INFO  org.example.tests.InventoryTestCase - Navigating to https://www.saucedemo.com/
+2025-08-09 09:04:11 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
+2025-08-09 09:04:12 INFO  org.example.listeners.TestListener - Test Started: loginWithValidUsers
+2025-08-09 09:04:12 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for positive case
+2025-08-09 09:04:12 INFO  org.example.tests.LoginTestCase - Login with with valid user - username: standard_user and password: secret_sauce
+2025-08-09 09:04:12 INFO  org.example.listeners.TestListener - Test Started: addingItemsToCart
+2025-08-09 09:04:12 INFO  org.example.tests.LoginTestCase - Checking if user is navigated to inventory page
+2025-08-09 09:04:12 INFO  org.example.tests.LoginTestCase - Login test case passed
+2025-08-09 09:04:12 INFO  org.example.listeners.TestListener - Test passed: loginWithValidUsers
+2025-08-09 09:04:12 INFO  org.example.tests.LoginTestCase - Quitting Browser
+2025-08-09 09:04:12 INFO  org.example.tests.InventoryTestCase - Adding Item to cart
+2025-08-09 09:04:12 INFO  org.example.tests.LoginTestCase - Setting up chrome with password manager leak detection off
+2025-08-09 09:04:12 INFO  org.example.tests.LoginTestCase - Launching Chrome Browser
+2025-08-09 09:04:13 INFO  org.example.tests.InventoryTestCase - Adding Item to cart
+2025-08-09 09:04:13 INFO  org.example.tests.InventoryTestCase - Adding Item to cart
+2025-08-09 09:04:13 INFO  org.example.tests.InventoryTestCase - Removing Item from  cart
+2025-08-09 09:04:13 INFO  org.example.tests.LoginTestCase - Maximizing Window
+2025-08-09 09:04:13 INFO  org.example.tests.LoginTestCase - Navigating to https://www.saucedemo.com/
+2025-08-09 09:04:13 INFO  org.example.tests.InventoryTestCase - Navigating to cart page
+2025-08-09 09:04:14 INFO  org.example.listeners.TestListener - Test passed: addingItemsToCart
+2025-08-09 09:04:14 INFO  org.example.tests.InventoryTestCase - Quitting Browser
+2025-08-09 09:04:14 INFO  org.example.listeners.TestListener - Test Started: loginWithValidUsers
+2025-08-09 09:04:14 INFO  org.example.tests.LoginTestCase - Checking if login page is properly setup for positive case
+2025-08-09 09:04:14 INFO  org.example.tests.LoginTestCase - Login with with valid user - username: problem_user and password: secret_sauce
+2025-08-09 09:04:14 INFO  org.example.tests.CartTestCase - Setting up chrome with password manager leak detection off
+2025-08-09 09:04:14 INFO  org.example.tests.CartTestCase - Launching Chrome Browser
+2025-08-09 09:04:14 INFO  org.example.tests.LoginTestCase - Checking if user is navigated to inventory page
+2025-08-09 09:04:14 INFO  org.example.tests.LoginTestCase - Login test case passed
+2025-08-09 09:04:14 INFO  org.example.listeners.TestListener - Test passed: loginWithValidUsers
+2025-08-09 09:04:14 INFO  org.example.tests.LoginTestCase - Quitting Browser
+2025-08-09 09:04:14 INFO  org.example.tests.CheckoutOneTestCase - Setting up chrome with password manager leak detection off
+2025-08-09 09:04:14 INFO  org.example.tests.CheckoutOneTestCase - Launching Chrome Browser
+2025-08-09 09:04:15 INFO  org.example.tests.CartTestCase - Maximizing Window
+2025-08-09 09:04:15 INFO  org.example.tests.CartTestCase - Navigating to https://www.saucedemo.com/
+2025-08-09 09:04:15 INFO  org.example.tests.CheckoutOneTestCase - Maximizing Window
+2025-08-09 09:04:15 INFO  org.example.tests.CheckoutOneTestCase - Navigating to https://www.saucedemo.com/
+2025-08-09 09:04:16 INFO  org.example.tests.CartTestCase - Adding Item to cart
+2025-08-09 09:04:16 INFO  org.example.tests.CheckoutOneTestCase - Adding Item to cart
+2025-08-09 09:04:16 INFO  org.example.tests.CartTestCase - Adding Item to cart
+2025-08-09 09:04:17 INFO  org.example.tests.CheckoutOneTestCase - Adding Item to cart
+2025-08-09 09:04:17 INFO  org.example.tests.CartTestCase - Adding Item to cart
+2025-08-09 09:04:17 INFO  org.example.tests.CheckoutOneTestCase - Adding Item to cart
+2025-08-09 09:04:17 INFO  org.example.tests.CartTestCase - Adding Item to cart
+2025-08-09 09:04:17 INFO  org.example.tests.CheckoutOneTestCase - Adding Item to cart
+2025-08-09 09:04:17 INFO  org.example.tests.CartTestCase - Navigating to cart page
+2025-08-09 09:04:18 INFO  org.example.listeners.TestListener - Test Started: proceedingToCheckoutWithItems
+2025-08-09 09:04:18 INFO  org.example.tests.CheckoutOneTestCase - Navigating to cart page
+2025-08-09 09:04:18 INFO  org.example.listeners.TestListener - Test passed: proceedingToCheckoutWithItems
+2025-08-09 09:04:18 INFO  org.example.tests.CartTestCase - Quitting Browser
+2025-08-09 09:04:18 INFO  org.example.tests.CheckoutOneTestCase - Navigating to checkout user details page
+2025-08-09 09:04:18 INFO  org.example.tests.CheckoutTwoTestCase - Setting up chrome with password manager leak detection off
+2025-08-09 09:04:18 INFO  org.example.tests.CheckoutTwoTestCase - Launching Chrome Browser
+2025-08-09 09:04:18 INFO  org.example.listeners.TestListener - Test Started: submittingUserDetails
+2025-08-09 09:04:18 INFO  org.example.tests.CheckoutOneTestCase - Filling up user details
+2025-08-09 09:04:18 INFO  org.example.tests.CheckoutOneTestCase - Submitting form
+2025-08-09 09:04:18 INFO  org.example.listeners.TestListener - Test passed: submittingUserDetails
+2025-08-09 09:04:18 INFO  org.example.tests.CheckoutOneTestCase - Quitting Browser
+2025-08-09 09:04:19 INFO  org.example.tests.CheckoutTwoTestCase - Maximizing Window
+2025-08-09 09:04:19 INFO  org.example.tests.CheckoutTwoTestCase - Navigating to https://www.saucedemo.com/
+2025-08-09 09:04:20 INFO  org.example.tests.CheckoutTwoTestCase - Adding Item to cart
+2025-08-09 09:04:20 INFO  org.example.tests.CheckoutTwoTestCase - Adding Item to cart
+2025-08-09 09:04:20 INFO  org.example.tests.CheckoutTwoTestCase - Adding Item to cart
+2025-08-09 09:04:21 INFO  org.example.tests.CheckoutTwoTestCase - Adding Item to cart
+2025-08-09 09:04:21 INFO  org.example.tests.CheckoutTwoTestCase - Navigating to cart page
+2025-08-09 09:04:21 INFO  org.example.tests.CheckoutTwoTestCase - Navigating to checkout user details page
+2025-08-09 09:04:21 INFO  org.example.tests.CheckoutTwoTestCase - Filling up user details
+2025-08-09 09:04:22 INFO  org.example.tests.CheckoutTwoTestCase - Submitting form
+2025-08-09 09:04:22 INFO  org.example.listeners.TestListener - Test Started: placingOrder
+2025-08-09 09:04:22 INFO  org.example.tests.CheckoutTwoTestCase - Placing order and navigating to order details page
+2025-08-09 09:04:22 INFO  org.example.listeners.TestListener - Test passed: placingOrder
+2025-08-09 09:04:22 INFO  org.example.tests.CheckoutTwoTestCase - Quitting Browser

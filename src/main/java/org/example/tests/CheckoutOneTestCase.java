@@ -1,66 +1,43 @@
 package org.example.tests;
 
+import org.example.base.BaseTest;
 import org.example.pages.CartPage;
 import org.example.pages.CheckoutOnePage;
 import org.example.pages.InventoryPage;
 import org.example.pages.LoginPage;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.util.HashMap;
-import java.util.Map;
 
-public class CheckoutOneTestCase {
-    public WebDriver driver;
-    CartPage cartPage;
-    CheckoutOnePage checkoutOnePage;
-
-    @BeforeMethod(alwaysRun = true)
-    public void setup() {
+public class CheckoutOneTestCase extends BaseTest {
+    public void testSetup() {
         String[] itemsToAdd = new String[]{"Sauce Labs Backpack", "Sauce Labs Fleece Jacket", "Test.allTheThings() T-Shirt (Red)", "Sauce Labs Bike Light"};
 
-        ChromeOptions options = new ChromeOptions();
-
-        Map<String, Object> prefs = new HashMap<>();
-        prefs.put("profile.password_manager_leak_detection", false);
-        options.setExperimentalOption("prefs", prefs);
-
-        driver = new ChromeDriver(options);
+        logger.info("Navigating to https://www.saucedemo.com/");
         driver.get("https://www.saucedemo.com/");
-        driver.manage().window().maximize();
-
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login("standard_user", "secret_sauce");
 
         InventoryPage inventoryPage = new InventoryPage(driver);
-
         for(String item : itemsToAdd) {
+            logger.info("Adding Item to cart");
             inventoryPage.addOrRemoveItemToCart(inventoryPage.getItem(item));
         }
+        logger.info("Navigating to cart page");
         inventoryPage.viewCart();
 
-        cartPage = new CartPage(driver);
-
+        CartPage cartPage = new CartPage(driver);
+        logger.info("Navigating to checkout user details page");
         cartPage.clickCheckoutBtn();
     }
 
-    @AfterMethod(alwaysRun = true)
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
+    @Test(retryAnalyzer = org.example.listeners.RetryAnalyser.class, groups = {"smoke", "regression"})
+    public void submittingUserDetails() {
+        CheckoutOnePage checkoutOnePage = new CheckoutOnePage(driver);
 
-    @Test(retryAnalyzer = org.example.listeners.RetryAnalyser.class)
-    public void test() {
-        checkoutOnePage = new CheckoutOnePage(driver);
-
+        logger.info("Filling up user details");
         checkoutOnePage.fillForm("Test", "Kumar", "123123");
+        logger.info("Submitting form");
         checkoutOnePage.submitForm();
 
 

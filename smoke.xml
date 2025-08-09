@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="smokeTests">
+<suite name="smokeTests" parallel="classes" thread-count="3">
     <listeners>
         <listener class-name="org.example.listeners.TestListener"/>
     </listeners>
@@ -12,6 +12,10 @@
         </groups>
         <classes>
             <class name="org.example.tests.LoginTestCase"/>
+            <class name="org.example.tests.InventoryTestCase"/>
+            <class name="org.example.tests.CartTestCase"/>
+            <class name="org.example.tests.CheckoutOneTestCase"/>
+            <class name="org.example.tests.CheckoutTwoTestCase"/>
         </classes>
     </test>
 </suite>
